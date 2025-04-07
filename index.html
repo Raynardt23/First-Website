@@ -94,7 +94,20 @@
             <button type="button" onclick="clearForm()">Clear</button>
         </form>
     </div>
+
+    <footer class="copyright-footer">
+        <p>&copy; <span id="year"></span> Raynardt Louw. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="/privacy">Privacy Policy</a>
+            <a href="/terms">Terms</a>
+            <a href="/contact">Contact</a>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
     
 
-
+</body>
 </html>
